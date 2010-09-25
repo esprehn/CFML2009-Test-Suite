@@ -1,0 +1,63 @@
+div, span { margin: 0; padding: 0; }
+
+.category
+{
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+h1
+{
+	font-size: 1.4em;
+}
+
+.category h1,
+.category h2, 
+.category h3, 
+.category h4, 
+.category h5, 
+.category h6
+{
+	font-size: 1.1em;
+	margin: 0;
+	padding: 0;
+}
+			
+.test 
+{ 
+	padding: 2px; 
+}
+
+.test a
+{
+	padding: 0 5px;
+	color: black;
+}
+
+.status 
+{
+	font-family: monospace;
+}
+
+.status-pending 
+{ 
+	background-color: #FFD300; 
+}
+
+.status-fail,
+.status-fail a
+{ 
+	background-color: #F40808; 
+	color: #FEC300;
+}
+
+.status-pass 
+{ 
+	background-color: #73BB5B; 
+}
+			
+.status-fail .message
+{
+	padding: 3px 10px;
+	color: black;
+}
