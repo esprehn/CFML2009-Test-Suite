@@ -12,6 +12,8 @@
 	variables.test(bar=2,arg={a="foo#new cfml2009testsuite.Component().getName()#"});
 	variables.test(["foo#new cfml2009testsuite.Component().getName()#"]);
 	
+	variables.foo = structNew();
+	variables.foo.bar = structNew();
 	variables.foo.bar.test = test;
 	variables.foo.bar.test();
 	variables.foo.bar.test(bar=2,arg={a="foo#new cfml2009testsuite.Component().getName()#"});
