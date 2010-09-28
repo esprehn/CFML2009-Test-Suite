@@ -10,7 +10,7 @@
 	
 	variables.test = "foo";
 	variables.test.more.keys = 2;
-	assert(2,variables.test.bar.baz);	
+	assert(2,variables.test.more.keys);	
 	
 	writeOutput("success.");
 </cfscript>
