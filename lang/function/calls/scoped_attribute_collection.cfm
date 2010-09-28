@@ -15,8 +15,8 @@
 	attributes = structCopy(getMetaData(test));
 	attributes.test = test;
 	attributes.test();
-	attributes.test(bar=2,arg={a="foo#new cfml2009testsuite.Component().getName()#"});
-	attributes.test(["foo#new cfml2009testsuite.Component().getName()#"]);
+	attributes.test(bar=2,arg={a="foo#new cfml2009testsuite.TestComponent().getName()#"});
+	attributes.test(["foo#new cfml2009testsuite.TestComponent().getName()#"]);
 		
 	writeOutput("success.");
 </cfscript>

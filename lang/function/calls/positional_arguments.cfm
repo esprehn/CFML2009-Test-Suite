@@ -18,7 +18,7 @@
 	test3([1, 2,3],"bar");
 	test3([{abc= 2 } ]);
 	
-	test2(["foo#new cfml2009testsuite.Component().getName()#"]);
+	test2(["foo#new cfml2009testsuite.TestComponent().getName()#"]);
 
 
 	writeOutput("success.");
