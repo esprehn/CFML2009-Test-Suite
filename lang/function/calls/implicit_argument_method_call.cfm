@@ -10,7 +10,7 @@
 	//
 	// Note: Fixed in 9.0.1 Prerelease
 	//
-	x = new cfml2009testsuite.Query();
+	x = new cfml2009testsuite.Component();
 	test( x={y="#x.getName()#"} );
 	test( x=["#x.getName()#"] );
 	
