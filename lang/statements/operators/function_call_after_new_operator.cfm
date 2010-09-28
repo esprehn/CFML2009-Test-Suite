@@ -4,13 +4,13 @@
 	// Cannot call function on result of new operator.
 
 	include "/cfml2009testsuite/testsuite.cfm";
-	import cfml2009testsuite.Component;
+	import cfml2009testsuite.TestComponent;
 
-	new Component().getName();
-	x = new cfml2009testsuite.Component().getName();
+	new TestComponent().getName();
+	x = new cfml2009testsuite.TestComponent().getName();
 
-	assert("query name","#new cfml2009testsuite.Component().getName()#");
-	assert("query name","#new Component().getName()#");
+	assert("query name","#new cfml2009testsuite.TestComponent().getName()#");
+	assert("query name","#new TestComponent().getName()#");
 	
 	writeOutput("success.");
 </cfscript>
